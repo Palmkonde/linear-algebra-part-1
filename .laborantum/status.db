@@ -41,6 +41,27 @@
                 "total": 1,
                 "correct": 0
             }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/config.yml",
+            "status": {
+                "total": 39,
+                "correct": 19
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/config.yml",
+            "status": {
+                "total": 23,
+                "correct": 0
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/config.yml",
+            "status": {
+                "total": 15,
+                "correct": 0
+            }
         }
     ],
     "lessons": [
@@ -2437,10 +2458,745 @@
         {
             "path": "/texts/course/2. Vector Spaces/Orthonormalization Algorithm/config.yml",
             "status": {
+                "correct": 10,
+                "total": 10,
+                "testStatus": [
+                    {
+                        "name": "root -> orthonormalized -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 11",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 12",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 13",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 14",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 15",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 16",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 17",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 18",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 19",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 20",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 21",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 22",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 23",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 24",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 25",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 26",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 27",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 28",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 29",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 30",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 31",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 32",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 33",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 34",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 35",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 36",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 37",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 38",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 39",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 40",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 41",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 42",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 43",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 44",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 45",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 46",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 47",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 48",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 49",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 50",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 51",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 52",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 53",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 54",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 55",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 56",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 57",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 58",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 59",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 60",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 61",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 62",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 63",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 64",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 65",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 66",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 67",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 68",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 69",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 70",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 71",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 72",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 73",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 74",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 75",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 76",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 77",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 78",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 79",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 80",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 81",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 82",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 83",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 84",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 85",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 86",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 87",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 88",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 89",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 90",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 91",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 92",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 93",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 94",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 95",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 96",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 97",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 98",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> orthonormalized -> 99",
+                        "ok": true,
+                        "status": "OK"
+                    }
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Spans/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    4,
+                    3,
+                    5
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Dependency/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    6
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Independency 1/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    6,
+                    3,
+                    4,
+                    5
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Independency 2/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    4,
+                    2
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Linear Dependensy and Orthonormalization/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Orthonormalization Algorithm/config.yml",
+            "status": {
                 "total": 1,
                 "correct": 0,
-                "testStatus": [],
-                "error": "[NbClientApp] Executing .laborantum/texts/course/1. Vectors/Vectors Practice/task.ipynb\n[NbClientApp] Executing notebook with kernel: python3\nTraceback (most recent call last):\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 154, in wrapped\n    asyncio.get_running_loop()\nRuntimeError: no running event loop\n\nDuring handling of the above exception, another exception occurred:\n\nTraceback (most recent call last):\n  File \"/usr/local/bin/jupyter-execute\", line 8, in <module>\n    sys.exit(main())\n             ^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/application.py\", line 284, in launch_instance\n    super().launch_instance(argv=argv, **kwargs)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 1074, in launch_instance\n    app.initialize(argv)\n  File \"/usr/local/lib/python3.11/site-packages/traitlets/config/application.py\", line 118, in inner\n    return method(app, *args, **kwargs)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 161, in initialize\n    self.run_notebook(path)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/cli.py\", line 215, in run_notebook\n    client.execute()\n  File \"/usr/local/lib/python3.11/site-packages/jupyter_core/utils/__init__.py\", line 158, in wrapped\n    return loop.run_until_complete(inner)\n           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/asyncio/base_events.py\", line 654, in run_until_complete\n    return future.result()\n           ^^^^^^^^^^^^^^^\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 709, in async_execute\n    await self.async_execute_cell(\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 1062, in async_execute_cell\n    await self._check_raise_for_error(cell, cell_index, exec_reply)\n  File \"/usr/local/lib/python3.11/site-packages/nbclient/client.py\", line 918, in _check_raise_for_error\n    raise CellExecutionError.from_cell_and_msg(cell, exec_reply_content)\nnbclient.exceptions.CellExecutionError: An error occurred while executing the following cell:\n------------------\nimport numpy as np\nimport matplotlib.pyplot as plt\n\nplt.figure(figsize=(10, 10))\nax = plt.gca()\nX = inputs[0]['X']\nvecs = np.concatenate([np.zeros_like(X), X.T], axis=1)\nX, Y, U, V = zip(*vecs)\n\nprint(X, Y, U, V)\n\nax.quiver(X, Y, U, V, angles='xy', scale_units='xy', scale=1, color = 'red')\n\nX = answers['directions'][0] * 2\nnorms = np.concatenate([np.zeros_like(X), X.T], axis=1)\nX, Y, U, V = zip(*norms)\n\nprint(X, Y, U, V)\nax.quiver(X, Y, U, V, angles='xy', scale_units='xy', scale=1, color = 'blue')\nax.set_xlim([-10, 10])\nax.set_ylim([-10, 10])\nplt.draw()\nplt.grid()\nplt.legend(['original', 'normalized'])\nplt.show()\n\n------------------\n\n----- stdout -----\n(np.int64(0), np.int64(0)) (np.int64(0), np.int64(0)) (np.int64(2), np.int64(5)) (np.int64(-10), np.int64(-7))\n------------------\n\n\u001b[31m---------------------------------------------------------------------------\u001b[39m\n\u001b[31mAttributeError\u001b[39m                            Traceback (most recent call last)\n\u001b[36mCell\u001b[39m\u001b[36m \u001b[39m\u001b[32mIn[8]\u001b[39m\u001b[32m, line 15\u001b[39m\n\u001b[32m     12\u001b[39m ax.quiver(X, Y, U, V, angles=\u001b[33m'\u001b[39m\u001b[33mxy\u001b[39m\u001b[33m'\u001b[39m, scale_units=\u001b[33m'\u001b[39m\u001b[33mxy\u001b[39m\u001b[33m'\u001b[39m, scale=\u001b[32m1\u001b[39m, color = \u001b[33m'\u001b[39m\u001b[33mred\u001b[39m\u001b[33m'\u001b[39m)\n\u001b[32m     14\u001b[39m X = answers[\u001b[33m'\u001b[39m\u001b[33mdirections\u001b[39m\u001b[33m'\u001b[39m][\u001b[32m0\u001b[39m] * \u001b[32m2\u001b[39m\n\u001b[32m---> \u001b[39m\u001b[32m15\u001b[39m norms = np.concatenate([np.zeros_like(X), \u001b[43mX\u001b[49m\u001b[43m.\u001b[49m\u001b[43mT\u001b[49m], axis=\u001b[32m1\u001b[39m)\n\u001b[32m     16\u001b[39m X, Y, U, V = \u001b[38;5;28mzip\u001b[39m(*norms)\n\u001b[32m     18\u001b[39m \u001b[38;5;28mprint\u001b[39m(X, Y, U, V)\n\n\u001b[31mAttributeError\u001b[39m: 'list' object has no attribute 'T'\n\n"
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Basis/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    4,
+                    0,
+                    6,
+                    2
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Coordinates/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    4,
+                    5,
+                    7,
+                    3,
+                    2,
+                    8
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Orthonormal Coordinates/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    4,
+                    2,
+                    1,
+                    0
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Coordinates and Basis Practice/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Hyperplanes and Subspaces/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/2. Vector Spaces/Hyperplanes/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 1,
+                "selectedVariantIds": [
+                    8,
+                    6,
+                    4,
+                    7,
+                    2,
+                    0,
+                    1
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrices Manual Exercise/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix Product Quiz/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix Product Optimal Order/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/3. Matrices/Matrix Product/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Functions as Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Linear Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices II/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Invertible Matrices III/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
+            }
+        },
+        {
+            "path": "/texts/course/4. Linear Transforms/Some Interesting Linear Transforms/config.yml",
+            "status": {
+                "total": 1,
+                "correct": 0,
+                "selectedVariantIds": []
             }
         }
     ]
