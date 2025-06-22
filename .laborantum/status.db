@@ -53,7 +53,7 @@
             "path": "/texts/course/3. Matrices/config.yml",
             "status": {
                 "total": 23,
-                "correct": 2
+                "correct": 3
             }
         },
         {
@@ -6196,8 +6196,13 @@
             "path": "/texts/course/3. Matrices/Matrix Product Optimal Order/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3
+                ]
             }
         },
         {
