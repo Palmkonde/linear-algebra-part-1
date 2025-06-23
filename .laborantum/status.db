@@ -4,7 +4,7 @@
             "path": "/texts/course/config.yml",
             "status": {
                 "total": 111,
-                "correct": 92.27777777777777
+                "correct": 94.5
             }
         },
         {
@@ -25,7 +25,7 @@
             "path": "/texts/course/3. Matrices/config.yml",
             "status": {
                 "total": 23,
-                "correct": 10.777777777777779
+                "correct": 13
             }
         },
         {
@@ -39,27 +39,6 @@
             "path": "/texts/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0
-            }
-        },
-        {
-            "path": "/texts/course/2. Vector Spaces/config.yml",
-            "status": {
-                "total": 39,
-                "correct": 32.5
-            }
-        },
-        {
-            "path": "/texts/course/3. Matrices/config.yml",
-            "status": {
-                "total": 23,
-                "correct": 3
-            }
-        },
-        {
-            "path": "/texts/course/4. Linear Transforms/config.yml",
-            "status": {
-                "total": 15,
                 "correct": 0
             }
         }
@@ -318,6 +297,26 @@
                         "status": "OK"
                     },
                     {
+                        "name": "root -> bool -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> bool -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
                         "name": "root -> lovely -> 0",
                         "ok": true,
                         "status": "OK"
@@ -338,22 +337,42 @@
                         "status": "OK"
                     },
                     {
-                        "name": "root -> expression -> 0",
+                        "name": "root -> expression1 -> 0",
                         "ok": true,
                         "status": "OK"
                     },
                     {
-                        "name": "root -> expression -> 1",
+                        "name": "root -> expression1 -> 1",
                         "ok": true,
                         "status": "OK"
                     },
                     {
-                        "name": "root -> expression -> 2",
+                        "name": "root -> expression1 -> 2",
                         "ok": true,
                         "status": "OK"
                     },
                     {
-                        "name": "root -> expression -> 3",
+                        "name": "root -> expression1 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression2 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression2 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression2 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> expression2 -> 3",
                         "ok": true,
                         "status": "OK"
                     }
@@ -6170,9 +6189,55 @@
         {
             "path": "/texts/course/3. Matrices/Matrices Manual Exercise/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 10,
+                "total": 10,
+                "testStatus": [
+                    {
+                        "name": "root -> task1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    }
+                ]
             }
         },
         {
@@ -6217,48 +6282,303 @@
             "path": "/texts/course/4. Linear Transforms/Functions as Transforms/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    8,
+                    6,
+                    1,
+                    5
+                ]
             }
         },
         {
             "path": "/texts/course/4. Linear Transforms/Linear Transforms/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    10,
+                    4,
+                    8,
+                    6,
+                    11
+                ]
             }
         },
         {
             "path": "/texts/course/4. Linear Transforms/Invertible Matrices/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    1,
+                    3,
+                    0,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/4. Linear Transforms/Invertible Matrices II/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    13,
+                    12,
+                    6,
+                    0,
+                    9,
+                    8,
+                    4,
+                    10
+                ]
             }
         },
         {
             "path": "/texts/course/4. Linear Transforms/Invertible Matrices III/config.yml",
             "status": {
                 "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 1,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    6
+                ]
             }
         },
         {
             "path": "/texts/course/4. Linear Transforms/Some Interesting Linear Transforms/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0,
-                "selectedVariantIds": []
+                "correct": 10,
+                "total": 10,
+                "testStatus": [
+                    {
+                        "name": "root -> task1 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task1 -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task2 -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task3 -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 1",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 2",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 3",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 4",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 5",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 6",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 7",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 8",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 9",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task4 -> 10",
+                        "ok": true,
+                        "status": "OK"
+                    },
+                    {
+                        "name": "root -> task5 -> 0",
+                        "ok": true,
+                        "status": "OK"
+                    }
+                ]
             }
         }
     ]
