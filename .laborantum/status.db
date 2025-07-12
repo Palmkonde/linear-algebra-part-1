@@ -3,8 +3,8 @@
         {
             "path": "/texts/course/config.yml",
             "status": {
-                "total": 229,
-                "correct": 228.45
+                "total": 258,
+                "correct": 257.75
             }
         },
         {
@@ -53,14 +53,14 @@
             "path": "/texts/course/6. Determinants/config.yml",
             "status": {
                 "total": 68,
-                "correct": 67.45
+                "correct": 67.75
             }
         },
         {
             "path": "/texts/course/7. Eigen Values and Eigen Vectors/config.yml",
             "status": {
-                "total": 1,
-                "correct": 0
+                "total": 29,
+                "correct": 29
             }
         }
     ],
@@ -25220,7 +25220,7 @@
         {
             "path": "/texts/course/6. Determinants/Determinant Computation Algorithm/config.yml",
             "status": {
-                "correct": 9.45,
+                "correct": 9.75,
                 "total": 10,
                 "testStatus": [
                     {
@@ -25250,8 +25250,8 @@
                     },
                     {
                         "name": "root -> results -> 2 -> 1",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5747027984894172"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 3 -> 0",
@@ -25450,8 +25450,8 @@
                     },
                     {
                         "name": "root -> results -> 22 -> 1",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.18181818181818182"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 23 -> 0",
@@ -25500,8 +25500,8 @@
                     },
                     {
                         "name": "root -> results -> 27 -> 1",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.3333333333333333"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 28 -> 0",
@@ -25520,8 +25520,8 @@
                     },
                     {
                         "name": "root -> results -> 29 -> 1",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.3333333333333335"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 30 -> 0",
@@ -25530,8 +25530,8 @@
                     },
                     {
                         "name": "root -> results -> 30 -> 1",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.06666666666666668"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 31 -> 0",
@@ -25651,7 +25651,7 @@
                     {
                         "name": "root -> results -> 42 -> 1",
                         "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.7018422896719967"
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.7018422896719968"
                     },
                     {
                         "name": "root -> results -> 43 -> 0",
@@ -25871,7 +25871,7 @@
                     {
                         "name": "root -> results -> 64 -> 1",
                         "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 1.0069296065331605"
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 1.0069296065331603"
                     },
                     {
                         "name": "root -> results -> 65 -> 0",
@@ -25930,8 +25930,8 @@
                     },
                     {
                         "name": "root -> results -> 70 -> 1",
-                        "ok": true,
-                        "status": "OK"
+                        "ok": false,
+                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.12500000000000003"
                     },
                     {
                         "name": "root -> results -> 71 -> 0",
@@ -26040,8 +26040,8 @@
                     },
                     {
                         "name": "root -> results -> 81 -> 1",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.5984289176179972"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 82 -> 0",
@@ -26050,8 +26050,8 @@
                     },
                     {
                         "name": "root -> results -> 82 -> 1",
-                        "ok": false,
-                        "status": "FAILED: answers do not match:\nMaximal average mismatch: 0.0001\nRecieved average mismatch: 0.0769230769230769"
+                        "ok": true,
+                        "status": "OK"
                     },
                     {
                         "name": "root -> results -> 83 -> 0",
@@ -28243,6 +28243,133 @@
                 "selectedVariantIds": [
                     3,
                     2
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Definition/config.yml",
+            "status": {
+                "total": 3,
+                "correct": 3,
+                "selectedVariantIds": [
+                    1,
+                    2,
+                    0,
+                    5,
+                    3
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Properties/config.yml",
+            "status": {
+                "total": 3,
+                "correct": 3,
+                "selectedVariantIds": [
+                    7,
+                    0,
+                    5,
+                    8,
+                    1
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Diagonalized Form of Matrix/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Matrix Power and Exponent/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Differential Equations Evolutionary Matrix/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9,
+                    10,
+                    11,
+                    12,
+                    13,
+                    14,
+                    15,
+                    16
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Differential Equations General Solution/config.yml",
+            "status": {
+                "total": 5,
+                "correct": 5,
+                "selectedVariantIds": [
+                    0,
+                    1,
+                    2,
+                    3,
+                    4,
+                    5,
+                    6,
+                    7,
+                    8,
+                    9
+                ]
+            }
+        },
+        {
+            "path": "/texts/course/7. Eigen Values and Eigen Vectors/Jordan Chain/config.yml",
+            "status": {
+                "total": 3,
+                "correct": 3,
+                "selectedVariantIds": [
+                    8,
+                    2,
+                    10,
+                    3,
+                    4,
+                    6,
+                    0,
+                    7
                 ]
             }
         }
